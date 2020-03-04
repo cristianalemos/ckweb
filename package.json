@@ -1,0 +1,24 @@
+{
+  "name": "ckweb-site",
+  "version": "1.0.0",
+  "description": "Site da CKW",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristianalemos/ckweb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristianalemos/ckweb/issues"
+  },
+  "homepage": "https://cristianalemos.github.io/ckweb"
+}
